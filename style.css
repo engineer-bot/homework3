@@ -24,8 +24,7 @@
     color: rgb(255, 255, 255);
  }
 
-.h2  h2 {
-    
+.content  h2 {
     margin: 10px;
     margin-left: 15px;
     background-color: rgba(65, 16, 155, 0.938);
@@ -33,19 +32,19 @@
     display: inline-block;
     border: 3px outset rgb(255, 255, 255);
 }
-.h2 h2, .h2 a, .p p  {
-    color: rgb(226, 213, 191);
-}
-.p {
-    width: 100222px;
-}
-.p p {
-    width: 800px;
+
+.content p {
+    
     background-color: rgb(197, 125, 125);
     padding: 10px;
     display: inline-block;
     border: 3px dashed cornsilk;
 }
+
+.content h2, a, p  {
+    color: rgb(226, 213, 191);
+}
+
 #nameRUS {
     color:  rgba(130, 235, 32, 0.945);
 }
