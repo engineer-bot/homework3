@@ -41,8 +41,11 @@
     border: 3px dashed cornsilk;
 }
 
-.content h2, a, p  {
-    color: rgb(226, 213, 191);
+.content h2, a  {
+    color: cornsilk;
+}
+.content p {
+    color: rgb(31, 30, 26);
 }
 
 #nameRUS {
