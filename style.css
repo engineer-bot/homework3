@@ -9,15 +9,20 @@
 .Menu li {
     display: inline-block;
     margin: 5px;
-    /* border: 3px solid rgb(180, 98, 98); */
     padding: 5px;
     background-color:rgb(144, 132, 25);}
+#topMenu ul {
+    width: 100%;
+}
 
 #topMenu li {
-        border: 3px outset rgb(180, 98, 98);
+        border: 6px outset rgb(180, 98, 98);
+        width: 22%;
+        text-align: center;
        }
+
 #botMenu li {
-        border: 3px inset rgb(180, 98, 98);
+        border: 6px inset rgb(180, 98, 98);
        }
  
 #topMenu a, #botMenu li  {
@@ -25,27 +30,23 @@
  }
 
 .content  h2 {
-    margin: 10px;
-    margin-left: 15px;
+    width: 99%;
     background-color: rgba(65, 16, 155, 0.938);
     padding: 8px; 
     display: inline-block;
     border: 3px outset rgb(255, 255, 255);
+    text-align: center;    
 }
 
 .content p {
-    
     background-color: rgb(197, 125, 125);
     padding: 10px;
-    display: inline-block;
     border: 3px dashed cornsilk;
+    color: rgb(0, 0, 0);
 }
 
 .content h2, a  {
     color: cornsilk;
-}
-.content p {
-    color: rgb(31, 30, 26);
 }
 
 #nameRUS {
@@ -60,22 +61,22 @@
     color:  rgba(0, 217, 255, 0.897);
 }
 
-body {
-
-    background-color: rgba(199, 164, 164, 0.466);
-}
-
-
-
 #UP li {
-    
     background-color: cyan;
     display: inline-block;
     margin: 5px;
     padding: 2px;
     border: 2px solid chocolate;   
 }
+
 #UP a {
     color: crimson;
 }
- 
+
+ body {
+    background-color: rgba(199, 164, 164, 0.466);
+}
+
+/* .middle {
+     width: 700px; margin:0 auto; 
+} */
